@@ -257,7 +257,7 @@
   color: grey;
 }
 .deals {
-  background-image: url(offer.jpeg);
+  background-image: url(/pictures/offer.jpeg);
   background-size: cover;
   height: 9.8rem;
   border-radius: 9px;
@@ -309,7 +309,7 @@
   margin-top: 17px;
 }
 .travel-destinatiom > div:nth-child(1) {
-  background-image: url(peshawar-real-image.webp);
+  background-image: url(/pictures/peshawar-real-image.webp);
   background-size: 100% 100%;
   grid-column: span 3;
   height: 280px;
@@ -317,28 +317,28 @@
   border-radius: 8px;
 }
 .travel-destinatiom > div:nth-child(2) {
-  background-image: url(london.jpeg);
+  background-image: url(/pictures/london.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 8px;
   grid-column: span 3;
 }
 .travel-destinatiom > div:nth-child(3) {
-  background-image: url(islamabad-real.jpeg);
+  background-image: url(/pictures/islamabad-real.jpeg);
   background-size: cover;
   grid-column: span 2;
   height: 290px;
   border-radius: 8px;
 }
 .travel-destinatiom > div:nth-child(4) {
-  background-image: url(switzerland.jpeg);
+  background-image: url(/pictures/switzerland.jpeg);
   background-size: cover;
   grid-column: span 2;
   height: 290px;
   border-radius: 8px;
 }
 .travel-destinatiom > div:nth-child(5) {
-  background-image: url(bhurban-reall.jpeg);
+  background-image: url(/pictures/bhurban-reall.jpeg);
   background-size: cover;
   border-radius: 8px;
   grid-column: span 2;
@@ -470,16 +470,16 @@
   height: 26rem;
 }
 .hostel-pics-one {
-  background-image: url(mailmaison.jpg);
+  background-image: url(/pictures/mailmaison.jpg);
 }
 .hostel-pics-two {
-  background-image: url(stirling.jpg);
+  background-image: url(/pictures/stirling.jpg);
 }
 .hostel-pics-three {
-  background-image: url(herfore.jpg);
+  background-image: url(/pictures/herfore.jpg);
 }
 .hostel-pics-four {
-  background-image: url(newcastle.jpg);
+  background-image: url(/pictures/newcastle.jpg);
 }
 .pic {
   width: 100%;
@@ -569,28 +569,28 @@
 }
 
 .hostel-pics-five {
-  background-image: url(lemon.webp);
+  background-image: url(/pictures/lemon.webp);
 }
 .hostel-pics-six {
-  background-image: url(aparthotel.webp);
+  background-image: url(/pictures/aparthotel.webp);
 }
 .hostel-pics-seven {
-  background-image: url(7season.webp);
+  background-image: url(/pictures/7season.webp);
 }
 .hostel-pics-eight {
-  background-image: url(villa.webp);
+  background-image: url(/pictures/villa.webp);
 }
 .hostel-pics-nine {
-  background-image: url(diplomat.jpg);
+  background-image: url(/pictures/diplomat.jpg);
 }
 .hostel-pics-ten {
-  background-image: url(comfort.jpg);
+  background-image: url(/pictures/comfort.jpg);
 }
 .hostel-pics-eleven {
-  background-image: url(lorak.jpg);
+  background-image: url(/pictures/lorak.jpg);
 }
 .hostel-pics-twelve {
-  background-image: url(bnb.jpg);
+  background-image: url(/pictures/bnb.jpg);
 }
 .offer-price {
   text-decoration: line-through;
