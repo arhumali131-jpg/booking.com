@@ -196,6 +196,12 @@
   .footer-size {
     padding-left: 1%;
   }
+  .question-type h3 {
+    font-size: .7rem;
+  }
+  .question-type {
+    padding-left: 6px;
+  }
   .detail-list li {
     overflow-wrap: anywhere;
   }
