@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>booking.in</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -39,33 +40,29 @@
               </section>
             </div>
           </div>
-          <ul class="list">
-            <li class="list-items" tabindex="0">
-              <a href="#">
-                <span><i class="fa-solid fa-bed"></i></span> Stay
-              </a>
-            </li>
-            <li class="list-items" tabindex="0">
-              <a href="#">
-                <span><i class="fa-solid fa-plane"></i></span> Flight
-              </a>
-            </li>
-            <li class="list-items" tabindex="0">
-              <a href="#">
-                <span><i class="bi bi-car-front-fill"></i></span> Car Rental
-              </a>
-            </li>
-            <li class="list-items" tabindex="0">
-              <a href="#">
-                <span><i class="bi bi-person-arms-up"></i></span> Attractions
-              </a>
-            </li>
-            <li class="list-items" tabindex="0">
-              <a href="#">
-                <span><i class="bi bi-taxi-front-fill"></i></span> Airport Taxi
-              </a>
-            </li>
-          </ul>
+        <ul class="list">
+  <li class="list-item">
+    <input type="radio" name="explore" id="Stay" hidden />
+    <label for="Stay">Stay</label>
+  </li>
+  <li class="list-item">
+    <input type="radio" name="explore" id="Flight" hidden />
+    <label for="Flight">Flight</label>
+  </li>
+  <li class="list-item">
+    <input type="radio" name="explore" id="Carrental" hidden />
+    <label for="Carrental">Car Rental</label>
+  </li>
+  <li class="list-item">
+    <input type="radio" name="explore" id="Attractions" hidden />
+    <label for="Attractions">Attractions</label>
+  </li>
+  <li class="list-item">
+    <input type="radio" name="explore" id="Airports" hidden />
+    <label for="Airports">Airport Taxi</label>
+  </li>
+</ul>
+
         </section>
       </nav>
     </header>
@@ -126,14 +123,20 @@
                 <div class="name-city">
                   peshawar
                   <span
-                    ><img src="/pictures/pak-flag.jpeg" alt="pak-flag" width="25px"
+                    ><img
+                      src="/pictures/pak-flag.jpeg"
+                      alt="pak-flag"
+                      width="25px"
                   /></span>
                 </div>
               </div>
               <div>
                 <div class="name-city">
                   london<span
-                    ><img src="/pictures/london-flag.jpeg" alt="london-flag" width="25px"
+                    ><img
+                      src="/pictures/london-flag.jpeg"
+                      alt="london-flag"
+                      width="25px"
                   /></span>
                 </div>
               </div>
@@ -141,7 +144,10 @@
                 <div class="name-city">
                   islamabad
                   <span
-                    ><img src="/pictures/pak-flag.jpeg" alt="pak-flag" width="25px"
+                    ><img
+                      src="/pictures/pak-flag.jpeg"
+                      alt="pak-flag"
+                      width="25px"
                   /></span>
                 </div>
               </div>
@@ -159,7 +165,10 @@
                 <div class="name-city">
                   bhurbna
                   <span
-                    ><img src="/pictures/pak-flag.jpeg" alt="pak-flag" width="25px"
+                    ><img
+                      src="/pictures/pak-flag.jpeg"
+                      alt="pak-flag"
+                      width="25px"
                   /></span>
                 </div>
               </div>
@@ -178,7 +187,9 @@
                 </div>
               </div>
               <div class="inner-properties-type">
-                <div><img src="/pictures/apartment.jpeg" alt="apartment" /></div>
+                <div>
+                  <img src="/pictures/apartment.jpeg" alt="apartment" />
+                </div>
                 <div>
                   <h3>apartments</h3>
                 </div>
@@ -189,10 +200,12 @@
                   <h3>villas</h3>
                 </div>
               </div>
-              <div>
-                <div><img src="/pictures/holidays-home.jpeg" alt="hoolidays" /></div>
+              <div class="inner-properties-type hidden">
                 <div>
-                  <h3>holidays home</h3>
+                  <img src="/pictures/holidays-home.jpeg" alt="hoolidays" />
+                </div>
+                <div>
+                  <h3>Home</h3>
                 </div>
               </div>
             </div>
@@ -252,7 +265,7 @@
           <div class="explore">
             <h1 class="book-heading">Quick and easy trip planner</h1>
             <p class="book-para">
-              ick a vibe and explore the top destinations in the World
+              pick a vibe and explore the top destinations in the World
             </p>
 
             <ul class="exploration-list">
@@ -260,15 +273,15 @@
                 <input
                   type="radio"
                   name="explore"
-                  id="cultural"
+                  id="Cultural-exploration"
                   checked
                   hidden
                 />
-                <label for="cultural">Cultural Exploration</label>
+                <label for="Cultural-exploration">Cultural Exploration</label>
               </li>
               <li>
                 <input type="radio" name="explore" id="romantic" hidden />
-                <label for="romantic">Romantic Trip</label>
+                <label for="romantic">Romantic Trips</label>
               </li>
               <li>
                 <input type="radio" name="explore" id="study" hidden />
@@ -280,13 +293,16 @@
               </li>
               <li>
                 <input type="radio" name="explore" id="shopping" hidden />
-                <label for="shopping">Shopping</label>
+                <label for="Shopping">Shopping</label>
               </li>
             </ul>
 
             <ul class="explore-cities-list">
               <li class="cities-list">
-                <img src="/pictures/stratford-upon-avon.jpg" alt="stratford-upon-avon" />
+                <img
+                  src="/pictures/stratford-upon-avon.jpg"
+                  alt="stratford-upon-avon"
+                />
                 <div class="cities-name">
                   <h3>stratford-upon-avon</h3>
                   <span>133Km from London</span>
@@ -338,7 +354,9 @@
             <ul class="property-list">
               <li>
                 <div class="hostel-pics-one pic">
-                  <button><i class="fa-regular fa-heart"></i></button>
+                  <span>
+                    <button><i class="fa-regular fa-heart"></i></button>
+                  </span>
                 </div>
                 <div class="sizing-card">
                   <div class="property-sell-card">
@@ -779,19 +797,16 @@
     <footer>
       <div class="footer-size">
         <div class="detail">
-          <div class="detail-heading">
-            <h3>Support</h3>
-            <h3>Discovery</h3>
-            <h3>Terms & settings</h3>
-            <h3>partners</h3>
-            <h3>about</h3>
-          </div>
           <div class="detail-list">
+            <h3>Support</h3>
             <ul>
               <li>manage your trips</li>
               <li>Contact Customer Service</li>
               <li>Safety resource centre</li>
             </ul>
+          </div>
+          <div class="detail-list">
+            <h3>Discovery</h3>
             <ul>
               <li>Genius loyalty programme</li>
               <li>Seasonal and holiday deals</li>
@@ -804,6 +819,9 @@
               <li>Restaurant reservations</li>
               <li>Booking.com for Travel Agents</li>
             </ul>
+          </div>
+          <div class="detail-list">
+            <h3>Terms & settings</h3>
             <ul>
               <li>Privacy & cookies</li>
               <li>Modern Slavery Statement</li>
@@ -813,12 +831,18 @@
               <li>Partner dispute</li>
               <li>Human Rights Statement</li>
             </ul>
+          </div>
+          <div class="detail-list">
+            <h3>partners</h3>
             <ul>
               <li>Extranet login</li>
               <li>Partner help</li>
               <li>List your property</li>
               <li>Become an affiliate</li>
             </ul>
+          </div>
+          <div class="detail-list hide">
+            <h3>about</h3>
             <ul>
               <li>About Booking.com</li>
               <li>How we work</li>
@@ -826,7 +850,6 @@
               <li>Press centre</li>
               <li>Careers</li>
               <li>Investor relations</li>
-
               <li>Corporate contact</li>
               <li>Content guidelines and reporting</li>
             </ul>
@@ -846,7 +869,9 @@
               >Copyright © 1996–2025 Booking.com™. All rights reserved.</span
             >
           </div>
-          <div><span>Booking.com</span><span class="author">@Syed_Arhum_ali</span></div>
+          <div>
+            <span>Booking.com</span><span class="author">@Syed_Arhum_ali</span>
+          </div>
         </div>
       </div>
     </footer>
