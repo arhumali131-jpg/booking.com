@@ -219,6 +219,13 @@
   .name-city {
     font-size: 0.6rem;
   }
+      .properties {
+        margin-top: 7rem;
+        height: 100rem;
+    }
+        .property-list li {
+        height: 21rem;
+    }
 
   .main-nav-sec {
     grid-template-rows: 42% 51%;

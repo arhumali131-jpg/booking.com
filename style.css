@@ -572,7 +572,7 @@
 .property-view span {
   font-size: 0.8rem;
   font-weight: 600;
-  color: grey;
+  color: grey; 
 }
 .sizing-card {
    display: grid;
