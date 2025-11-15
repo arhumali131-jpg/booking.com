@@ -100,6 +100,9 @@
   .property-list li {
     height: 28rem;
   }
+  .list-of-things li {
+    font-size: 0.6rem;
+  }
   .top-body {
     height: 56vh;
   }
@@ -109,15 +112,35 @@
   .exploration-list {
     gap: 1%;
   }
-      .banner-size {
-        margin-top: 13%;
-    }
-    .properties {
-    margin-top: 0rem;
-    height: 66rem;
-}
-}
+  .banner-size {
+    margin-top: 13%;
+  }
+  .name-city {
+    font-size: 0.8rem;
+  }
 
+  .properties {
+    margin-top: 6rem;
+    height: 66rem;
+  }
+  .question-type p {
+    margin-top: 8px;
+    padding-bottom: 25px;
+    font-size: 0.7rem;
+  }
+  .question-type h3 {
+    margin-top: 8px;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 630px) {
+  .heading-top {
+    font-size: 2rem;
+  }
+  .para-top {
+    font-size: 1.3rem;
+  }
+}
 @media (max-width: 600px) {
   .property-list li {
     max-width: 100%;
@@ -163,6 +186,22 @@
 
     height: 27vh;
   }
+  .exploration-list label {
+    padding: 9px 5px;
+    font-size: 0.7rem;
+  }
+  .cities-list-name li {
+    font-size: 0.7rem;
+  }
+  .exploration-list {
+    width: 100%;
+  }
+  .semi-rec > div > h4 {
+    font-size: 1.1rem;
+  }
+  .semi-rec > div > button {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 520px) {
@@ -191,16 +230,65 @@
   .travel-destinatiom > span > img {
     width: 20px;
   }
+  .semi-rec > div > h4 {
+    font-size: 0.78rem;
+  }
+  .question-type img {
+    width: 50px;
+    height: 45px;
+  }
+  .question-type h3 {
+    font-size: 0.8rem;
+  }
+  .question-type p {
+    font-size: 0.6rem;
+  }
+  .question-type img {
+    width: 50px;
+    height: 45px;
+  }
+
+  .question-type h3 {
+    margin-top: 8px;
+    font-size: 0.8rem;
+  }
+  .detail-list li {
+    /* list-style: none; */
+    /* list-style: none; */
+    /* padding-top: 10px; */
+    font-size: 0.4rem;
+  }
+}
+.detail-list h3 {
+  font-size: 0.6rem;
+}
+.detail-list li {
+  /* list-style: none; */
+  /* list-style: none; */
+  /* padding-top: 10px; */
+  font-size: 0.6rem;
+  padding-top: 5px;
 }
 @media (max-width: 450px) {
   .footer-size {
     padding-left: 1%;
   }
+  .semi-rec > div > button {
+    font-size: 0.6rem;
+  }
   .question-type h3 {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .question-type {
     padding-left: 6px;
+    padding-top: 8px;
+  }
+  .question-type h3 {
+    font-size: 0.6rem;
+  }
+  .question-type p {
+    font-size: 0.5rem;
+    padding-bottom: 10px;
   }
   .detail-list li {
     overflow-wrap: anywhere;
@@ -208,13 +296,66 @@
   .hide {
     display: none;
   }
-      .banner-size {
-        margin-top: 18%;
-    }
+  .banner-size {
+    margin-top: 18%;
+  }
+  .cities-list-name li {
+    font-size: 0.6rem;
+  }
+  .exploration-list label {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 400px) {
   .property-list {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-left {
+    height: 9rem;
+  }
+  .copy-right div:nth-child(1) {
+    font-size: .7rem;
+  }
+  .semi-rec {
+    border-bottom-right-radius: 118px;
+  }
+  .detail {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .copy-right div:nth-child(2) {
+    /* background: blue; */
+    font-weight: 700;
+    font-size: .7rem;
+    color: #003b95;
+}
+  .semi-rec > div > button {
+    font-size: 0.5rem;
+    padding: 0px 17px;
+    margin-top: 1rem;
+  }
+  .semi-rec > div > h4 {
+    font-size: 0.65rem;
+  }
+  .top-body {
+    height: 68vh;
+  }
+  .heading-top {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .para-top {
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+  .uppper-heading {
+    margin-top: 1rem;
+  }
+  .search-bar {
+    height: 10rem;
+    width: 60%;
+    bottom: 5.9rem;
+    display: grid;
+    grid-template-rows: repeat(4, 25%);
   }
   .list {
     display: grid;
@@ -225,13 +366,14 @@
   .name-city {
     font-size: 0.6rem;
   }
-      .properties {
-        margin-top: 7rem;
-        height: 100rem;
-    }
-        .property-list li {
-        height: 21rem;
-    }
+
+  .properties {
+    margin-top: 7rem;
+    height: 100rem;
+  }
+  .property-list li {
+    height: 21rem;
+  }
 
   .main-nav-sec {
     grid-template-rows: 42% 51%;
@@ -249,6 +391,37 @@
     height: 160px;
   }
 }
+.deals {
+  height: 8rem;
+}
+.deal-offer {
+  gap: 5px;
+}
+.deal-heading {
+  font-size: 1rem;
+}
+.deal-btn {
+  /* width: 5rem; */
+  height: 2rem;
+}
+
+.popular button {
+  font-size: 0.7rem;
+}
+.cities-list-name li {
+  font-size: 0.5rem;
+}
+.cities-list-name {
+  gap: 2px;
+  margin-top: 1rem;
+}
+
+.exploration-list {
+  flex-wrap: wrap;
+}
+.exploration-list label {
+  font-size: 0.6rem;
+}
 .list-item label {
   font-size: 0.8rem;
 }
@@ -259,4 +432,13 @@
   .name-city {
     font-size: 0.5rem;
   }
+  .copy-right div:nth-child(2) {
+    justify-self: baseline;
+  }
 }
+@media (max-width: 250px) {
+    .banner-size {
+        margin-top: 30%;
+    }
+}
+
